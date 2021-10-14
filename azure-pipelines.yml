@@ -38,7 +38,6 @@ steps:
     sonarQubeRunAnalysis: true
     sqMavenPluginVersionChoice: 'latest'
     pmdRunAnalysis: true
-    findBugsRunAnalysis: true
 - task: SonarQubePublish@4
   inputs:
     pollingTimeoutSec: '300'
